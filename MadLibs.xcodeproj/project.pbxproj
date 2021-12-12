@@ -13,6 +13,7 @@
 		1131B2CE2765EBC800FD9842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1131B2CC2765EBC800FD9842 /* Main.storyboard */; };
 		1131B2D02765EBCB00FD9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1131B2CF2765EBCB00FD9842 /* Assets.xcassets */; };
 		1131B2D32765EBCB00FD9842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1131B2D12765EBCB00FD9842 /* LaunchScreen.storyboard */; };
+		1131B2DB2765F50B00FD9842 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131B2DA2765F50B00FD9842 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1131B2CF2765EBCB00FD9842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1131B2D22765EBCB00FD9842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1131B2D42765EBCB00FD9842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1131B2DA2765F50B00FD9842 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1131B2CF2765EBCB00FD9842 /* Assets.xcassets */,
 				1131B2D12765EBCB00FD9842 /* LaunchScreen.storyboard */,
 				1131B2D42765EBCB00FD9842 /* Info.plist */,
+				1131B2DA2765F50B00FD9842 /* SecondViewController.swift */,
 			);
 			path = MadLibs;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1131B2DB2765F50B00FD9842 /* SecondViewController.swift in Sources */,
 				1131B2CB2765EBC800FD9842 /* ViewController.swift in Sources */,
 				1131B2C72765EBC800FD9842 /* AppDelegate.swift in Sources */,
 				1131B2C92765EBC800FD9842 /* SceneDelegate.swift in Sources */,

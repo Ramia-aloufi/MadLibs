@@ -8,13 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,PassData {
 
+    
+    @IBOutlet weak var lbl: UILabel!
+    
+    func pass(data: Data) {
+        lbl.text = "We are having a perfectly \(data.Adjective) right now. Later we will \(data.Verb1) and \(data.Verb2) in the \(data.Noun)"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "MadLibs"
+
         // Do any additional setup after loading the view.
     }
+    
 
 
+    @IBAction func goToSecondView(_ sender: UIBarButtonItem) {
+        let secondVC = storyboard?.instantiateViewController(identifier: "secondVC") as! SecondViewController
+        secondVC.delegate  = self
+        navigationController?.pushViewController(secondVC, animated: true)
+    }
+    
+    
 }
 
