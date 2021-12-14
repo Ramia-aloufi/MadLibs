@@ -20,6 +20,8 @@ class ViewController: UIViewController,PassData {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "MadLibs"
+        self.navigationController?.setToolbarHidden(false, animated: false)
+
 
         // Do any additional setup after loading the view.
     }
@@ -30,6 +32,9 @@ class ViewController: UIViewController,PassData {
         let secondVC = storyboard?.instantiateViewController(identifier: "secondVC") as! SecondViewController
         secondVC.delegate  = self
         navigationController?.pushViewController(secondVC, animated: true)
+    }
+    
+    @IBAction func goBack(_ unwindSegue : UIStoryboardSegue) {
     }
     
     

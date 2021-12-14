@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         title = "Add Data"
 
-        
+        self.navigationController?.setToolbarHidden(true, animated: false)
 
         // Do any additional setup after loading the view.
     }
