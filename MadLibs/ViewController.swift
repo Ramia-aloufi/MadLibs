@@ -20,10 +20,14 @@ class ViewController: UIViewController,PassData {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "MadLibs"
-        self.navigationController?.setToolbarHidden(false, animated: false)
+        self.navigationController?.isToolbarHidden = true
 
 
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+                self.navigationController?.isToolbarHidden = true
+
     }
     
 
